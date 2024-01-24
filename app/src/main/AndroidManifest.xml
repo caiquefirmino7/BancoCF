@@ -13,6 +13,18 @@
         android:theme="@style/Theme.BancoCF"
         tools:targetApi="31">
         <activity
+            android:name=".Poupanca"
+            android:exported="false" />
+        <activity
+            android:name=".Transferencias"
+            android:exported="false" />
+        <activity
+            android:name=".Faturas"
+            android:exported="false" />
+        <activity
+            android:name=".saldo"
+            android:exported="false" />
+        <activity
             android:name=".Saldo"
             android:exported="false" />
         <activity

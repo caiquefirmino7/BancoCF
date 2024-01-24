@@ -6,39 +6,34 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".saldo">
-    
+    tools:context=".Poupanca">
+
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbarSaldo"
+        android:id="@+id/ToolbarPoupanca"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/blue"
-        app:title="Saldo"
+        app:title="Poupança"
         app:titleTextColor="@color/white"
-        app:navigationIcon="@drawable/ic_back"
-        />
-
+        app:navigationIcon="@drawable/ic_back"/>
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Saldo Disponível"
-        android:textStyle="bold"
+        android:text="Valor Total"
         android:textColor="@color/black"
         android:textSize="25sp"
-        android:layout_marginTop="100dp"
-        android:layout_marginStart="20dp"
-        />
+        android:textStyle="bold"
+       android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"/>
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="R$ 90.000 Reais"
+        android:text="R$ 71.0000 Reais"
         android:textStyle="bold"
-        android:textSize="25sp"
+        android:textSize="18sp"
         android:layout_marginStart="15dp"
-        />
-
-
+        android:layout_marginTop="10dp"/>
 
 </LinearLayout>

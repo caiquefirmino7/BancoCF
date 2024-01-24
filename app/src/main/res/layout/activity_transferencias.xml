@@ -6,38 +6,45 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".saldo">
-    
+    tools:context=".Transferencias">
+
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbarSaldo"
+        android:id="@+id/toolbarTransferencias"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/blue"
-        app:title="Saldo"
-        app:titleTextColor="@color/white"
         app:navigationIcon="@drawable/ic_back"
+        app:title="Transferências"
+        app:titleTextColor="@color/white"
         />
 
-
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Saldo Disponível"
+        android:text="Transferência"
         android:textStyle="bold"
+        android:textSize="25sp"
         android:textColor="@color/black"
-        android:textSize="25sp"
-        android:layout_marginTop="100dp"
-        android:layout_marginStart="20dp"
-        />
+        android:layout_marginTop="70dp"
+        android:gravity="center"/>
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="R$ 90.000 Reais"
+        android:text="Para:"
+        android:textSize="22sp"
         android:textStyle="bold"
-        android:textSize="25sp"
-        android:layout_marginStart="15dp"
-        />
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Valor:"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"/>
 
 
 
